@@ -1,0 +1,16 @@
+{
+  "name": "passport-vimeo",
+  "version": "0.1.0",
+  "description": "Vimeo authentication strategy for Passport.",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaredhanson/passport-vimeo.git"
+  },
+  "main": "./lib/passport-vimeo",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "vimeo", "auth", "authn", "authentication", "identity"]
+}
