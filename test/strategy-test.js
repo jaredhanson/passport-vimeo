@@ -30,7 +30,7 @@ vows.describe('VimeoStrategy').addBatch({
       
       // mock
       strategy._oauth.get = function(url, token, tokenSecret, callback) {
-        var body = '{ \
+        var body = '{ "person": { \
           "created_on":"2006-02-13 11:27:25", \
           "id":"101193", \
           "is_plus":"1", \
@@ -48,7 +48,7 @@ vows.describe('VimeoStrategy').addBatch({
           "number_of_videos_appears_in":"7", \
           "profileurl":"http:\/\/www.vimeo.com\/brad", \
           "videosurl":"http:\/\/www.vimeo.com\/brad\/videos" \
-        }';
+        } }';
         
         callback(null, body, undefined);
       }
